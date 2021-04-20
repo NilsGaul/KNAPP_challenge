@@ -1,0 +1,153 @@
+[0.013s] Invoking command in '/home/nils/knapp_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nils/install/python_parameters:/home/nils/install/py_srvcli:/home/nils/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/nils/knapp_ws/build/more_interfaces -- -j1 -l1
+[0.068s] -- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.092s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") 
+[0.092s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.317s] -- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.321s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.325s] -- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.475s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.502s] -- Found rclcpp: 2.3.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.561s] -- Found rmw_implementation_cmake: 1.0.2 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.564s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.757s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") 
+[0.894s] -- Found ament_cmake_ros: 0.9.1 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.997s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.007s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.035s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") 
+[1.036s] -- Found python_cmake_module: 0.8.0 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.061s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.061s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.061s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.080s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.091s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.093s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.094s] -- Configured cppcheck include dirs: 
+[1.094s] -- Configured cppcheck exclude dirs and/or files: 
+[1.095s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.095s] -- Configured cpplint exclude dirs and/or files: 
+[1.096s] -- Added test 'lint_cmake' to check CMake code style
+[1.097s] -- Added test 'uncrustify' to check C / C++ code style
+[1.097s] -- Configured uncrustify additional arguments: 
+[1.098s] -- Added test 'xmllint' to check XML markup files
+[1.102s] -- Configuring done
+[1.143s] -- Generating done
+[1.149s] -- Build files have been written to: /home/nils/knapp_ws/build/more_interfaces
+[1.186s] [  3%] Built target more_interfaces__cpp
+[1.207s] [ 12%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[1.229s] [ 21%] Built target more_interfaces__rosidl_typesupport_cpp
+[1.252s] [ 30%] Built target more_interfaces__rosidl_generator_c
+[1.274s] [ 39%] Built target more_interfaces__rosidl_typesupport_c
+[1.298s] [ 48%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[1.324s] [ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[1.348s] [ 66%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[1.371s] [ 66%] Built target more_interfaces
+[1.395s] [ 69%] Built target more_interfaces__py
+[1.422s] [ 75%] Built target more_interfaces__python
+[1.450s] [ 81%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[1.476s] [ 87%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[1.502s] [ 93%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[1.515s] [35m[1mScanning dependencies of target amr_node[0m
+[1.562s] [ 96%] [32mBuilding CXX object CMakeFiles/amr_node.dir/src/amr_node.cpp.o[0m
+[7.836s] [100%] [32m[1mLinking CXX executable amr_node[0m
+[8.112s] [100%] Built target amr_node
+[8.125s] Invoked command in '/home/nils/knapp_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nils/install/python_parameters:/home/nils/install/py_srvcli:/home/nils/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/nils/knapp_ws/build/more_interfaces -- -j1 -l1
+[8.195s] Invoking command in '/home/nils/knapp_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nils/install/python_parameters:/home/nils/install/py_srvcli:/home/nils/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/nils/knapp_ws/build/more_interfaces
+[8.209s] -- Install configuration: ""
+[8.209s] -- Installing: /home/nils/knapp_ws/install/more_interfaces/lib/more_interfaces/amr_node
+[8.211s] -- Set runtime path of "/home/nils/knapp_ws/install/more_interfaces/lib/more_interfaces/amr_node" to ""
+[8.211s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/ament_index/resource_index/rosidl_interfaces/more_interfaces
+[8.212s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces
+[8.212s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg
+[8.212s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_generator_c__visibility_control.h
+[8.212s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/order.h
+[8.212s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[8.212s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/detail/order__functions.c
+[8.213s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/detail/order__functions.h
+[8.213s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/detail/order__type_support.h
+[8.213s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/detail/order__struct.h
+[8.213s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/environment/library_path.sh
+[8.213s] -- Installing: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/environment/library_path.dsv
+[8.214s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_generator_c.so
+[8.214s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces
+[8.214s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg
+[8.214s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[8.215s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[8.215s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/detail/order__rosidl_typesupport_fastrtps_c.h
+[8.215s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_c.so
+[8.215s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces
+[8.216s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg
+[8.216s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[8.216s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/detail/dds_fastrtps
+[8.216s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/detail/order__rosidl_typesupport_fastrtps_cpp.hpp
+[8.216s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[8.217s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[8.217s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces
+[8.217s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg
+[8.217s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[8.218s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[8.218s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/detail/order__rosidl_typesupport_introspection_c.h
+[8.218s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/detail/order__type_support.c
+[8.218s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_c.so
+[8.219s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_c.so
+[8.219s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces
+[8.219s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg
+[8.220s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/order.hpp
+[8.220s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[8.220s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/detail/order__builder.hpp
+[8.220s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/detail/order__struct.hpp
+[8.220s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/detail/order__traits.hpp
+[8.221s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces
+[8.221s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg
+[8.221s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/detail
+[8.221s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/detail/order__rosidl_typesupport_introspection_cpp.hpp
+[8.221s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/include/more_interfaces/msg/detail/order__type_support.cpp
+[8.222s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_introspection_cpp.so
+[8.222s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/lib/libmore_interfaces__rosidl_typesupport_cpp.so
+[8.223s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.sh
+[8.223s] -- Installing: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/environment/pythonpath.dsv
+[8.223s] -- Installing: /home/nils/knapp_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/__init__.py
+[8.258s] Compiling '/home/nils/knapp_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/__init__.py'...
+[8.263s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg
+[8.263s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/__init__.py
+[8.264s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_order_s.c
+[8.264s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/msg/_order.py
+[8.264s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[8.265s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[8.266s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/lib/python3.8/site-packages/more_interfaces/more_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[8.266s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/lib/libmore_interfaces__python.so
+[8.267s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/msg/Order.idl
+[8.267s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/msg/Order.msg
+[8.267s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/ament_index/resource_index/package_run_dependencies/more_interfaces
+[8.267s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/ament_index/resource_index/parent_prefix_path/more_interfaces
+[8.268s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.sh
+[8.268s] -- Installing: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/environment/ament_prefix_path.dsv
+[8.268s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/environment/path.sh
+[8.268s] -- Installing: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/environment/path.dsv
+[8.269s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/local_setup.bash
+[8.269s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/local_setup.sh
+[8.269s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/local_setup.zsh
+[8.269s] -- Installing: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/local_setup.dsv
+[8.270s] -- Installing: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/package.dsv
+[8.270s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/ament_index/resource_index/packages/more_interfaces
+[8.270s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport.cmake
+[8.271s] -- Installing: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cExport-noconfig.cmake
+[8.271s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[8.271s] -- Installing: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[8.272s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport.cmake
+[8.272s] -- Installing: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[8.272s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_generator_cppExport.cmake
+[8.273s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[8.273s] -- Installing: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[8.273s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport.cmake
+[8.273s] -- Installing: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[8.274s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake-extras.cmake
+[8.274s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.274s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[8.274s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[8.274s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.275s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[8.275s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[8.275s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig.cmake
+[8.275s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/cmake/more_interfacesConfig-version.cmake
+[8.275s] -- Up-to-date: /home/nils/knapp_ws/install/more_interfaces/share/more_interfaces/package.xml
+[8.279s] Invoked command in '/home/nils/knapp_ws/build/more_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nils/install/python_parameters:/home/nils/install/py_srvcli:/home/nils/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --install /home/nils/knapp_ws/build/more_interfaces

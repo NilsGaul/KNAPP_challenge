@@ -1,0 +1,7 @@
+[01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:[m[K In constructor ‘[01m[KRobotNode::RobotNode()[m[K’:
+[01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:18:23:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPublisher[m[K’ has not been declared
+   18 |     500ms, std::bind(&[01;31m[KMinimalPublisher[m[K::timer_callback, this));
+      |                       [01;31m[K^~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/amr_node.dir/build.make:63: CMakeFiles/amr_node.dir/src/amr_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:529: CMakeFiles/amr_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

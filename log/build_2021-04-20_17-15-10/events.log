@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.000225] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.000260] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.009111] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.009896] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[0.010915] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nils/knapp_ws/build/more_interfaces', '--', '-j1', '-l1'], 'cwd': '/home/nils/knapp_ws/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nils'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1501'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nils/knapp_ws/install/more_interfaces/lib:/home/nils/install/tutorial_interfaces/lib:/home/nils/install/turtlesim/lib:/home/nils/install/more_interfaces/lib:/home/nils/install/action_tutorials_cpp/lib:/home/nils/install/action_tutorials_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/nils'), ('OLDPWD', '/home/nils/knapp_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1281'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4678'), ('_colcon_cd_root', '/home/nils/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nils/knapp_ws/install:/home/nils/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nils'), ('JOURNAL_STREAM', '8:35436'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'nils'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/nils/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nils-VirtualBox:@/tmp/.ICE-unix/1558,unix/nils-VirtualBox:/tmp/.ICE-unix/1558'), ('INVOCATION_ID', '429b9533d8444c3381426bb9e3d322a6'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nils/knapp_ws/install/more_interfaces:/home/nils/install/cpp_srvcli:/home/nils/install/cpp_pubsub:/home/nils/install/tutorial_interfaces:/home/nils/install/turtlesim:/home/nils/install/python_parameters:/home/nils/install/py_srvcli:/home/nils/install/py_pubsub:/home/nils/install/my_package:/home/nils/install/more_interfaces:/home/nils/install/cpp_parameters:/home/nils/install/action_tutorials_cpp:/home/nils/install/action_tutorials_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:e7dec650-7f8a-4a73-8cc4-62b47cc26d6c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nils/knapp_ws/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nils/knapp_ws/install/more_interfaces/lib/python3.8/site-packages:/home/nils/install/tutorial_interfaces/lib/python3.8/site-packages:/home/nils/install/turtlesim/lib/python3.8/site-packages:/home/nils/install/python_parameters/lib/python3.8/site-packages:/home/nils/install/py_srvcli/lib/python3.8/site-packages:/home/nils/install/py_pubsub/lib/python3.8/site-packages:/home/nils/install/more_interfaces/lib/python3.8/site-packages:/home/nils/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nils/knapp_ws/install/more_interfaces:/home/nils/install/cpp_srvcli:/home/nils/install/cpp_pubsub:/home/nils/install/tutorial_interfaces:/home/nils/install/turtlesim:/home/nils/install/my_package:/home/nils/install/more_interfaces:/home/nils/install/cpp_parameters:/home/nils/install/action_tutorials_cpp:/home/nils/install/action_tutorials_interfaces:/home/nils/install/python_parameters:/home/nils/install/py_srvcli:/home/nils/install/py_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.093065] (more_interfaces) StdoutLine: {'line': b'[  3%] Built target more_interfaces__cpp\n'}
+[0.094536] (-) TimerEvent: {}
+[0.128083] (more_interfaces) StdoutLine: {'line': b'[ 12%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.165946] (more_interfaces) StdoutLine: {'line': b'[ 21%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[0.190369] (more_interfaces) StdoutLine: {'line': b'[ 30%] Built target more_interfaces__rosidl_generator_c\n'}
+[0.195428] (-) TimerEvent: {}
+[0.215357] (more_interfaces) StdoutLine: {'line': b'[ 39%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[0.242390] (more_interfaces) StdoutLine: {'line': b'[ 48%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.267204] (more_interfaces) StdoutLine: {'line': b'[ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.288601] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.296334] (-) TimerEvent: {}
+[0.309034] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces\n'}
+[0.331992] (more_interfaces) StdoutLine: {'line': b'[ 69%] Built target more_interfaces__py\n'}
+[0.357167] (more_interfaces) StdoutLine: {'line': b'[ 75%] Built target more_interfaces__python\n'}
+[0.382132] (more_interfaces) StdoutLine: {'line': b'[ 81%] Built target more_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.397206] (-) TimerEvent: {}
+[0.407463] (more_interfaces) StdoutLine: {'line': b'[ 87%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.435674] (more_interfaces) StdoutLine: {'line': b'[ 93%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.447420] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target amr_node\x1b[0m\n'}
+[0.469772] (more_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/amr_node.dir/src/amr_node.cpp.o\x1b[0m\n'}
+[0.498087] (-) TimerEvent: {}
+[0.598998] (-) TimerEvent: {}
+[0.699886] (-) TimerEvent: {}
+[0.800816] (-) TimerEvent: {}
+[0.901703] (-) TimerEvent: {}
+[1.002602] (-) TimerEvent: {}
+[1.103495] (-) TimerEvent: {}
+[1.204386] (-) TimerEvent: {}
+[1.305264] (-) TimerEvent: {}
+[1.406162] (-) TimerEvent: {}
+[1.507045] (-) TimerEvent: {}
+[1.607952] (-) TimerEvent: {}
+[1.708837] (-) TimerEvent: {}
+[1.809744] (-) TimerEvent: {}
+[1.910656] (-) TimerEvent: {}
+[2.011558] (-) TimerEvent: {}
+[2.017854] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:29:21:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.018118] (more_interfaces) StderrLine: {'line': b'   29 |   rclcpp::Publisher<\x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::String>::SharedPtr publisher_;\n'}
+[2.018243] (more_interfaces) StderrLine: {'line': b'      |                     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.018469] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:29:42:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.018593] (more_interfaces) StderrLine: {'line': b'   29 |   rclcpp::Publisher<std_msgs::msg::String\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[2.018712] (more_interfaces) StderrLine: {'line': b'      |                                          \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.018880] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:29:45:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[2.018999] (more_interfaces) StderrLine: {'line': b'   29 |   rclcpp::Publisher<std_msgs::msg::String>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[2.019114] (more_interfaces) StderrLine: {'line': b'      |                                             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[2.019234] (more_interfaces) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[2.021944] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:29:55:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.022169] (more_interfaces) StderrLine: {'line': b'   29 |   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[2.022791] (more_interfaces) StderrLine: {'line': b'      |                                                       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.022912] (more_interfaces) StderrLine: {'line': b'      |                                                       \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[2.026863] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRobotNode::RobotNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.027108] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:15:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.027306] (more_interfaces) StderrLine: {'line': b'   15 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::String>("topic", 10);\n'}
+[2.027418] (more_interfaces) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.027529] (more_interfaces) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[2.030459] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:15:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.030682] (more_interfaces) StderrLine: {'line': b'   15 |     publisher_ = this->create_publisher<\x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::String>("topic", 10);\n'}
+[2.030800] (more_interfaces) StderrLine: {'line': b'      |                                         \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.030959] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:15:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kparse error in template argument list\n'}
+[2.031169] (more_interfaces) StderrLine: {'line': b'   15 |     publisher_ = this->\x1b[01;31m\x1b[Kcreate_publisher<std_msgs::msg::String>\x1b[m\x1b[K("topic", 10);\n'}
+[2.031291] (more_interfaces) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.031479] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:15:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KRobotNode::create_publisher<<expression error> >(const char [6], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.031606] (more_interfaces) StderrLine: {'line': b'   15 | reate_publisher<std_msgs::msg::String>("topic", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.031720] (more_interfaces) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.031826] (more_interfaces) StderrLine: {'line': b'\n'}
+[2.032093] (more_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.032228] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.032343] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.032463] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:4\x1b[m\x1b[K:\n'}
+[2.032583] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.032701] (more_interfaces) StderrLine: {'line': b'  184 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[2.032818] (more_interfaces) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.032947] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.033111] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:15:75:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.033238] (more_interfaces) StderrLine: {'line': b'   15 | reate_publisher<std_msgs::msg::String>("topic", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.033356] (more_interfaces) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.033460] (more_interfaces) StderrLine: {'line': b'\n'}
+[2.033714] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:17:23:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.033843] (more_interfaces) StderrLine: {'line': b'   17 |     500ms, std::bind(&\x1b[01;31m\x1b[KMinimalPublisher\x1b[m\x1b[K::timer_callback, this));\n'}
+[2.033956] (more_interfaces) StderrLine: {'line': b'      |                       \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.034415] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RobotNode::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.034548] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:23:20:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstd_msgs\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[2.034662] (more_interfaces) StderrLine: {'line': b'   23 |     auto message = \x1b[01;31m\x1b[Kstd_msgs\x1b[m\x1b[K::msg::String();\n'}
+[2.034775] (more_interfaces) StderrLine: {'line': b'      |                    \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[2.041569] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:26:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.041800] (more_interfaces) StderrLine: {'line': b'   26 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[2.041972] (more_interfaces) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.042086] (more_interfaces) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[2.112444] (-) TimerEvent: {}
+[2.213333] (-) TimerEvent: {}
+[2.314198] (-) TimerEvent: {}
+[2.415098] (-) TimerEvent: {}
+[2.516638] (-) TimerEvent: {}
+[2.523169] (more_interfaces) StderrLine: {'line': b'make[2]: *** [CMakeFiles/amr_node.dir/build.make:63: CMakeFiles/amr_node.dir/src/amr_node.cpp.o] Error 1\n'}
+[2.526453] (more_interfaces) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:529: CMakeFiles/amr_node.dir/all] Error 2\n'}
+[2.526992] (more_interfaces) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[2.527084] (more_interfaces) CommandEnded: {'returncode': 2}
+[2.617152] (-) TimerEvent: {}
+[2.624884] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 2}
+[2.627461] (-) EventReactorShutdown: {}
