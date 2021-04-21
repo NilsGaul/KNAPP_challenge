@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.000224] (more_interfaces) JobQueued: {'identifier': 'more_interfaces', 'dependencies': OrderedDict()}
+[0.000261] (more_interfaces) JobStarted: {'identifier': 'more_interfaces'}
+[0.008750] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'cmake'}
+[0.009505] (more_interfaces) JobProgress: {'identifier': 'more_interfaces', 'progress': 'build'}
+[0.010504] (more_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/nils/knapp_ws/build/more_interfaces', '--', '-j1', '-l1'], 'cwd': '/home/nils/knapp_ws/build/more_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'nils'), ('LC_TIME', 'de_DE.UTF-8'), ('SSH_AGENT_PID', '1501'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/nils/knapp_ws/install/more_interfaces/lib:/home/nils/install/tutorial_interfaces/lib:/home/nils/install/turtlesim/lib:/home/nils/install/more_interfaces/lib:/home/nils/install/action_tutorials_cpp/lib:/home/nils/install/action_tutorials_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/nils'), ('OLDPWD', '/home/nils/knapp_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1281'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4678'), ('_colcon_cd_root', '/home/nils/ros2_install'), ('MANDATORY_PATH', '/usr/share/gconf/ubuntu.mandatory.path'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/nils/knapp_ws/install:/home/nils/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'nils'), ('JOURNAL_STREAM', '8:35436'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('DEFAULTS_PATH', '/usr/share/gconf/ubuntu.default.path'), ('USERNAME', 'nils'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/home/nils/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/nils-VirtualBox:@/tmp/.ICE-unix/1558,unix/nils-VirtualBox:/tmp/.ICE-unix/1558'), ('INVOCATION_ID', '429b9533d8444c3381426bb9e3d322a6'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/nils/knapp_ws/install/more_interfaces:/home/nils/install/cpp_srvcli:/home/nils/install/cpp_pubsub:/home/nils/install/tutorial_interfaces:/home/nils/install/turtlesim:/home/nils/install/python_parameters:/home/nils/install/py_srvcli:/home/nils/install/py_pubsub:/home/nils/install/my_package:/home/nils/install/more_interfaces:/home/nils/install/cpp_parameters:/home/nils/install/action_tutorials_cpp:/home/nils/install/action_tutorials_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:e7dec650-7f8a-4a73-8cc4-62b47cc26d6c'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/nils/knapp_ws/build/more_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/nils/knapp_ws/install/more_interfaces/lib/python3.8/site-packages:/home/nils/install/tutorial_interfaces/lib/python3.8/site-packages:/home/nils/install/turtlesim/lib/python3.8/site-packages:/home/nils/install/python_parameters/lib/python3.8/site-packages:/home/nils/install/py_srvcli/lib/python3.8/site-packages:/home/nils/install/py_pubsub/lib/python3.8/site-packages:/home/nils/install/more_interfaces/lib/python3.8/site-packages:/home/nils/install/action_tutorials_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/nils/knapp_ws/install/more_interfaces:/home/nils/install/cpp_srvcli:/home/nils/install/cpp_pubsub:/home/nils/install/tutorial_interfaces:/home/nils/install/turtlesim:/home/nils/install/my_package:/home/nils/install/more_interfaces:/home/nils/install/cpp_parameters:/home/nils/install/action_tutorials_cpp:/home/nils/install/action_tutorials_interfaces:/home/nils/install/python_parameters:/home/nils/install/py_srvcli:/home/nils/install/py_pubsub:/opt/ros/foxy')]), 'shell': False}
+[0.090843] (more_interfaces) StdoutLine: {'line': b'[  3%] Built target more_interfaces__cpp\n'}
+[0.093897] (-) TimerEvent: {}
+[0.128875] (more_interfaces) StdoutLine: {'line': b'[ 12%] Built target more_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.168192] (more_interfaces) StdoutLine: {'line': b'[ 21%] Built target more_interfaces__rosidl_typesupport_cpp\n'}
+[0.194779] (-) TimerEvent: {}
+[0.196789] (more_interfaces) StdoutLine: {'line': b'[ 30%] Built target more_interfaces__rosidl_generator_c\n'}
+[0.251683] (more_interfaces) StdoutLine: {'line': b'[ 39%] Built target more_interfaces__rosidl_typesupport_c\n'}
+[0.282724] (more_interfaces) StdoutLine: {'line': b'[ 48%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.295819] (-) TimerEvent: {}
+[0.311913] (more_interfaces) StdoutLine: {'line': b'[ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.338806] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.362177] (more_interfaces) StdoutLine: {'line': b'[ 66%] Built target more_interfaces\n'}
+[0.386048] (more_interfaces) StdoutLine: {'line': b'[ 69%] Built target more_interfaces__py\n'}
+[0.396562] (-) TimerEvent: {}
+[0.414855] (more_interfaces) StdoutLine: {'line': b'[ 75%] Built target more_interfaces__python\n'}
+[0.447971] (more_interfaces) StdoutLine: {'line': b'[ 81%] Built target more_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.476227] (more_interfaces) StdoutLine: {'line': b'[ 87%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.497463] (-) TimerEvent: {}
+[0.502773] (more_interfaces) StdoutLine: {'line': b'[ 93%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.514966] (more_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target amr_node\x1b[0m\n'}
+[0.563934] (more_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object CMakeFiles/amr_node.dir/src/amr_node.cpp.o\x1b[0m\n'}
+[0.599356] (-) TimerEvent: {}
+[0.700232] (-) TimerEvent: {}
+[0.803137] (-) TimerEvent: {}
+[0.832831] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunterminated argument list invoking macro "RCLCPP_INFO"\n'}
+[0.833117] (more_interfaces) StderrLine: {'line': b'   70 | }\n'}
+[0.833247] (more_interfaces) StderrLine: {'line': b'      | \n'}
+[0.904010] (-) TimerEvent: {}
+[1.004875] (-) TimerEvent: {}
+[1.106452] (-) TimerEvent: {}
+[1.208340] (-) TimerEvent: {}
+[1.309560] (-) TimerEvent: {}
+[1.410358] (-) TimerEvent: {}
+[1.511905] (-) TimerEvent: {}
+[1.613176] (-) TimerEvent: {}
+[1.714095] (-) TimerEvent: {}
+[1.814972] (-) TimerEvent: {}
+[1.915910] (-) TimerEvent: {}
+[2.016779] (-) TimerEvent: {}
+[2.117698] (-) TimerEvent: {}
+[2.219833] (-) TimerEvent: {}
+[2.322391] (-) TimerEvent: {}
+[2.423282] (-) TimerEvent: {}
+[2.524207] (-) TimerEvent: {}
+[2.625068] (-) TimerEvent: {}
+[2.686043] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:52:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[2.686295] (more_interfaces) StderrLine: {'line': b'   52 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "I heard: \'%s\'", msg->header.frame_id;\n'}
+[2.686444] (more_interfaces) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.686590] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:13:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.686761] (more_interfaces) StderrLine: {'line': b'   13 | \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[2.686883] (more_interfaces) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.708697] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRobotNode::RobotNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.708944] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:22:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_subscription_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.709073] (more_interfaces) StderrLine: {'line': b'   22 |     \x1b[01;31m\x1b[Ksubscription_\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::String>(\n'}
+[2.709192] (more_interfaces) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.709359] (more_interfaces) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krcl_subscription_t\x1b[m\x1b[K\n'}
+[2.725960] (-) TimerEvent: {}
+[2.757805] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:25:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksubscription_current_position\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.758049] (more_interfaces) StderrLine: {'line': b'   25 |     \x1b[01;31m\x1b[Ksubscription_current_position\x1b[m\x1b[K = this->create_subscription<std_msgs::msg::PoseStamped>(\n'}
+[2.758206] (more_interfaces) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.759133] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:25:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPoseStamped\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseStamped\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.759379] (more_interfaces) StderrLine: {'line': b'   25 | nt_position = this->create_subscription<std_msgs::msg::\x1b[01;31m\x1b[KPoseStamped\x1b[m\x1b[K>(\n'}
+[2.759499] (more_interfaces) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.759605] (more_interfaces) StderrLine: {'line': b'\n'}
+[2.759791] (more_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/pose_stamped.hpp:7\x1b[m\x1b[K,\n'}
+[2.759906] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:7\x1b[m\x1b[K:\n'}
+[2.760022] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/detail/pose_stamped__struct.hpp:134:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseStamped\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.760136] (more_interfaces) StderrLine: {'line': b'  134 | using \x1b[01;36m\x1b[KPoseStamped\x1b[m\x1b[K =\n'}
+[2.760272] (more_interfaces) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.761237] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:25:78:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPoseStamped\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseStamped\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[2.761456] (more_interfaces) StderrLine: {'line': b'   25 | nt_position = this->create_subscription<std_msgs::msg::\x1b[01;31m\x1b[KPoseStamped\x1b[m\x1b[K>(\n'}
+[2.761569] (more_interfaces) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.761672] (more_interfaces) StderrLine: {'line': b'\n'}
+[2.761815] (more_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/pose_stamped.hpp:7\x1b[m\x1b[K,\n'}
+[2.761927] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:7\x1b[m\x1b[K:\n'}
+[2.762041] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/geometry_msgs/msg/detail/pose_stamped__struct.hpp:134:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::PoseStamped\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[2.765570] (more_interfaces) StderrLine: {'line': b'  134 | using \x1b[01;36m\x1b[KPoseStamped\x1b[m\x1b[K =\n'}
+[2.765752] (more_interfaces) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.769432] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:26:87:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KRobotNode::create_subscription<<expression error> >(const char [16], int, std::_Bind_helper<false, void (RobotNode::*)(std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >) const, RobotNode*, const std::_Placeholder<1>&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.769676] (more_interfaces) StderrLine: {'line': b'   26 | nd(&RobotNode::currentPosition_callback, this, _1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.769797] (more_interfaces) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.769917] (more_interfaces) StderrLine: {'line': b'\n'}
+[2.770170] (more_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:1221\x1b[m\x1b[K,\n'}
+[2.770290] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[2.770418] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[2.770531] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[2.770645] (more_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:4\x1b[m\x1b[K:\n'}
+[2.770769] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:91:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.770889] (more_interfaces) StderrLine: {'line': b'   91 | \x1b[01;36m\x1b[KNode\x1b[m\x1b[K::create_subscription(\n'}
+[2.771072] (more_interfaces) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[2.771202] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:91:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[2.771340] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:26:87:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[2.771457] (more_interfaces) StderrLine: {'line': b'   26 | nd(&RobotNode::currentPosition_callback, this, _1)\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[2.771570] (more_interfaces) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.771679] (more_interfaces) StderrLine: {'line': b'\n'}
+[2.794429] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid RobotNode::currentPosition_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.794752] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:52:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KRCLCPP_INFO\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[2.794879] (more_interfaces) StderrLine: {'line': b'   52 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "I heard: \'%s\'", msg->header.frame_id;\n'}
+[2.795002] (more_interfaces) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.795235] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:52:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[2.796106] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:51:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[2.796325] (more_interfaces) StderrLine: {'line': b'   51 |   \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[2.796553] (more_interfaces) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[2.796753] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:50:82:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[2.796878] (more_interfaces) StderrLine: {'line': b'   50 | callback(\x1b[01;35m\x1b[Kconst geometry_msgs::msg::PoseStamped::SharedPtr msg\x1b[m\x1b[K) const\n'}
+[2.796992] (more_interfaces) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[2.797097] (more_interfaces) StderrLine: {'line': b'\n'}
+[2.797253] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[2.797385] (more_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:52:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[2.797509] (more_interfaces) StderrLine: {'line': b'   52 |     \x1b[01;31m\x1b[KRCLCPP_INFO\x1b[m\x1b[K(this->get_logger(), "I heard: \'%s\'", msg->header.frame_id;\n'}
+[2.797622] (more_interfaces) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.826877] (-) TimerEvent: {}
+[2.930834] (-) TimerEvent: {}
+[3.031589] (-) TimerEvent: {}
+[3.132499] (-) TimerEvent: {}
+[3.239290] (-) TimerEvent: {}
+[3.340175] (-) TimerEvent: {}
+[3.441075] (-) TimerEvent: {}
+[3.541967] (-) TimerEvent: {}
+[3.642866] (-) TimerEvent: {}
+[3.743765] (-) TimerEvent: {}
+[3.844649] (-) TimerEvent: {}
+[3.945554] (-) TimerEvent: {}
+[4.046479] (-) TimerEvent: {}
+[4.147828] (-) TimerEvent: {}
+[4.248247] (-) TimerEvent: {}
+[4.349138] (-) TimerEvent: {}
+[4.451025] (-) TimerEvent: {}
+[4.551891] (-) TimerEvent: {}
+[4.652790] (-) TimerEvent: {}
+[4.753674] (-) TimerEvent: {}
+[4.856840] (-) TimerEvent: {}
+[4.957482] (-) TimerEvent: {}
+[5.058360] (-) TimerEvent: {}
+[5.159258] (-) TimerEvent: {}
+[5.174462] (more_interfaces) StderrLine: {'line': b'make[2]: *** [CMakeFiles/amr_node.dir/build.make:63: CMakeFiles/amr_node.dir/src/amr_node.cpp.o] Error 1\n'}
+[5.175897] (more_interfaces) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:529: CMakeFiles/amr_node.dir/all] Error 2\n'}
+[5.176052] (more_interfaces) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[5.178220] (more_interfaces) CommandEnded: {'returncode': 2}
+[5.260826] (-) TimerEvent: {}
+[5.271147] (more_interfaces) JobEnded: {'identifier': 'more_interfaces', 'rc': 2}
+[5.274379] (-) EventReactorShutdown: {}

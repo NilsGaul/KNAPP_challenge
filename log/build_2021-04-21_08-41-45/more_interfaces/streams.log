@@ -1,0 +1,38 @@
+[0.039s] Invoking command in '/home/nils/knapp_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nils/install/python_parameters:/home/nils/install/py_srvcli:/home/nils/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/nils/knapp_ws/build/more_interfaces -- -j1 -l1
+[0.183s] [  3%] Built target more_interfaces__cpp
+[0.208s] [ 12%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.236s] [ 21%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.260s] [ 30%] Built target more_interfaces__rosidl_generator_c
+[0.284s] [ 39%] Built target more_interfaces__rosidl_typesupport_c
+[0.313s] [ 48%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.343s] [ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.373s] [ 66%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.407s] [ 66%] Built target more_interfaces
+[0.433s] [ 69%] Built target more_interfaces__py
+[0.466s] [ 75%] Built target more_interfaces__python
+[0.494s] [ 81%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[0.522s] [ 87%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.553s] [ 93%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.570s] [35m[1mScanning dependencies of target amr_node[0m
+[0.599s] [ 96%] [32mBuilding CXX object CMakeFiles/amr_node.dir/src/amr_node.cpp.o[0m
+[2.408s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:56:68:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >::SharedPtr RobotNode::subscription_[m[K’
+[2.408s]    56 | scription<geometry_msgs::msg::PoseStamped>::SharedPtr [01;31m[Ksubscription_[m[K;
+[2.409s]       |                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[2.409s] 
+[2.409s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:55:58:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr RobotNode::subscription_[m[K’
+[2.409s]    55 | clcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;36m[Ksubscription_[m[K;
+[2.409s]       |                                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[2.409s] 
+[2.447s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:[m[K In constructor ‘[01m[KRobotNode::RobotNode()[m[K’:
+[2.447s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_current_position[m[K’ was not declared in this scope
+[2.447s]    25 |     [01;31m[Ksubscription_current_position[m[K = this->create_subscription<geometry_msgs::msg::PoseStamped>(
+[2.447s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.467s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:[m[K In member function ‘[01m[Kvoid RobotNode::currentPosition_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.467s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:50:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[2.467s]    50 | callback([01;35m[Kconst geometry_msgs::msg::PoseStamped::SharedPtr msg[m[K) const
+[2.467s]       |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[2.467s] 
+[4.935s] make[2]: *** [CMakeFiles/amr_node.dir/build.make:63: CMakeFiles/amr_node.dir/src/amr_node.cpp.o] Error 1
+[4.937s] make[1]: *** [CMakeFiles/Makefile2:529: CMakeFiles/amr_node.dir/all] Error 2
+[4.937s] make: *** [Makefile:141: all] Error 2
+[4.940s] Invoked command in '/home/nils/knapp_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nils/install/python_parameters:/home/nils/install/py_srvcli:/home/nils/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/nils/knapp_ws/build/more_interfaces -- -j1 -l1

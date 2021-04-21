@@ -1,0 +1,84 @@
+[0.010s] Invoking command in '/home/nils/knapp_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nils/install/python_parameters:/home/nils/install/py_srvcli:/home/nils/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/nils/knapp_ws/build/more_interfaces -- -j1 -l1
+[0.089s] [  3%] Built target more_interfaces__cpp
+[0.117s] [ 12%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.161s] [ 21%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.183s] [ 30%] Built target more_interfaces__rosidl_generator_c
+[0.214s] [ 39%] Built target more_interfaces__rosidl_typesupport_c
+[0.251s] [ 48%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.281s] [ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.303s] [ 66%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.328s] [ 66%] Built target more_interfaces
+[0.348s] [ 69%] Built target more_interfaces__py
+[0.374s] [ 75%] Built target more_interfaces__python
+[0.399s] [ 81%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[0.429s] [ 87%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.454s] [ 93%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.467s] [35m[1mScanning dependencies of target amr_node[0m
+[0.490s] [ 96%] [32mBuilding CXX object CMakeFiles/amr_node.dir/src/amr_node.cpp.o[0m
+[2.398s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:56:68:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >::SharedPtr RobotNode::subscription_[m[K’
+[2.398s]    56 | scription<geometry_msgs::msg::PoseStamped>::SharedPtr [01;31m[Ksubscription_[m[K;
+[2.398s]       |                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[2.398s] 
+[2.398s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:55:58:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr RobotNode::subscription_[m[K’
+[2.399s]    55 | clcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;36m[Ksubscription_[m[K;
+[2.399s]       |                                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[2.399s] 
+[2.433s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:[m[K In constructor ‘[01m[KRobotNode::RobotNode()[m[K’:
+[2.434s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_current_position[m[K’ was not declared in this scope
+[2.434s]    25 |     [01;31m[Ksubscription_current_position[m[K = this->create_subscription<std_msgs::msg::PoseStamped>(
+[2.434s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.435s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:25:78:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’?
+[2.435s]    25 | nt_position = this->create_subscription<std_msgs::msg::[01;31m[KPoseStamped[m[K>(
+[2.435s]       |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[2.435s] 
+[2.435s] In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+[2.435s]                  from [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:7[m[K:
+[2.436s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/pose_stamped__struct.hpp:134:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ declared here
+[2.436s]   134 | using [01;36m[KPoseStamped[m[K =
+[2.436s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[2.437s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:25:78:[m[K [01;31m[Kerror: [m[K‘[01m[KPoseStamped[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’?
+[2.437s]    25 | nt_position = this->create_subscription<std_msgs::msg::[01;31m[KPoseStamped[m[K>(
+[2.437s]       |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[2.437s] 
+[2.437s] In file included from [01m[K/opt/ros/foxy/include/geometry_msgs/msg/pose_stamped.hpp:7[m[K,
+[2.437s]                  from [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:7[m[K:
+[2.437s] [01m[K/opt/ros/foxy/include/geometry_msgs/msg/detail/pose_stamped__struct.hpp:134:7:[m[K [01;36m[Knote: [m[K‘[01m[Kgeometry_msgs::msg::PoseStamped[m[K’ declared here
+[2.437s]   134 | using [01;36m[KPoseStamped[m[K =
+[2.438s]       |       [01;36m[K^~~~~~~~~~~[m[K
+[2.440s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:26:87:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KRobotNode::create_subscription<<expression error> >(const char [16], int, std::_Bind_helper<false, void (RobotNode::*)(std::shared_ptr<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >) const, RobotNode*, const std::_Placeholder<1>&>::type)[m[K’
+[2.441s]    26 | nd(&RobotNode::currentPosition_callback, this, _1)[01;31m[K)[m[K;
+[2.441s]       |                                                   [01;31m[K^[m[K
+[2.441s] 
+[2.442s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1221[m[K,
+[2.442s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.442s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[2.442s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.443s]                  from [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:4[m[K:
+[2.443s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:91:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class CallbackMessageT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<SubscriptionT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+[2.443s]    91 | [01;36m[KNode[m[K::create_subscription(
+[2.443s]       | [01;36m[K^~~~[m[K
+[2.443s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:91:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.443s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:26:87:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.443s]    26 | nd(&RobotNode::currentPosition_callback, this, _1)[01;31m[K)[m[K;
+[2.443s]       |                                                   [01;31m[K^[m[K
+[2.444s] 
+[2.462s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[2.462s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[2.462s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[2.462s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[2.462s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[2.462s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[2.463s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[2.463s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.463s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[2.463s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[2.463s]                  from [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:4[m[K:
+[2.463s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:[m[K In member function ‘[01m[Kvoid RobotNode::currentPosition_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr) const[m[K’:
+[2.463s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:52:59:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct geometry_msgs::msg::PoseStamped_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kdata[m[K’
+[2.463s]    52 | RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg->[01;31m[Kdata[m[K.c_str());
+[2.464s]       |                                                       [01;31m[K^~~~[m[K
+[2.464s] 
+[4.462s] make[2]: *** [CMakeFiles/amr_node.dir/build.make:63: CMakeFiles/amr_node.dir/src/amr_node.cpp.o] Error 1
+[4.466s] make[1]: *** [CMakeFiles/Makefile2:529: CMakeFiles/amr_node.dir/all] Error 2
+[4.466s] make: *** [Makefile:141: all] Error 2
+[4.466s] Invoked command in '/home/nils/knapp_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nils/install/python_parameters:/home/nils/install/py_srvcli:/home/nils/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/nils/knapp_ws/build/more_interfaces -- -j1 -l1

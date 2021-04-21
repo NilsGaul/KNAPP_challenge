@@ -1,0 +1,5 @@
+[01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:[m[K In member function ‘[01m[Kvoid RobotNode::currentPosition_callback(geometry_msgs::msg::PoseStamped_<std::allocator<void> >::SharedPtr) const[m[K’:
+[01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:50:82:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmsg[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   50 | callback([01;35m[Kconst geometry_msgs::msg::PoseStamped::SharedPtr msg[m[K) const
+      |          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+

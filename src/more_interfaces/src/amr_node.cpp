@@ -22,6 +22,11 @@ public:
     subscription_ = this->create_subscription<std_msgs::msg::String>(
       "topic", 10, std::bind(&RobotNode::topic_callback, this, _1));
 
+    subscription_current_position = this->create_subscription<geometry_msgs::msg::PoseStamped>(
+      "currentPosition", 10, std::bind(&RobotNode::currentPosition_callback, this, _1));
+
+    subscription_next_order = this->create_subscription<more_interfaces::msg::Order>(
+      "nextOrder", 10, std::bind(&RobotNode::nextOrder_callback, this, _1));
 
 
   }
@@ -43,7 +48,21 @@ private:
   {
     RCLCPP_INFO(this->get_logger(), "I heard: '%s'", msg->data.c_str());
   }
+
+
+  void currentPosition_callback(const geometry_msgs::msg::PoseStamped::SharedPtr msg) const
+  {
+    RCLCPP_INFO(this->get_logger(), "I heard at currentPosition_callback: '%s' !", msg->header.frame_id);
+  }
+
+  void nextOrder_callback(const more_interfaces::msg::Order::SharedPtr msg) const
+  {
+    RCLCPP_INFO(this->get_logger(), "I heard at nextOrder_callback: '%s' !", msg->description);
+  }
+
   rclcpp::Subscription<std_msgs::msg::String>::SharedPtr subscription_;
+  rclcpp::Subscription<geometry_msgs::msg::PoseStamped>::SharedPtr subscription_current_position;
+  rclcpp::Subscription<more_interfaces::msg::Order>::SharedPtr subscription_next_order;
 
 
   

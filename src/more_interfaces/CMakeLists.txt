@@ -19,13 +19,14 @@ endif()
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(rclcpp REQUIRED)
+find_package(geometry_msgs REQUIRED)
 
 add_executable(amr_node
   src/amr_node.cpp
 )
 
 ament_target_dependencies(amr_node
-  "rclcpp"
+  rclcpp geometry_msgs
 )
 
 install(TARGETS 

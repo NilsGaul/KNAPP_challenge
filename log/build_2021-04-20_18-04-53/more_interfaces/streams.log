@@ -1,0 +1,33 @@
+[0.012s] Invoking command in '/home/nils/knapp_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nils/install/python_parameters:/home/nils/install/py_srvcli:/home/nils/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/nils/knapp_ws/build/more_interfaces -- -j1 -l1
+[0.091s] [  3%] Built target more_interfaces__cpp
+[0.123s] [ 12%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.163s] [ 21%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.192s] [ 30%] Built target more_interfaces__rosidl_generator_c
+[0.221s] [ 39%] Built target more_interfaces__rosidl_typesupport_c
+[0.259s] [ 48%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.287s] [ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.311s] [ 66%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.333s] [ 66%] Built target more_interfaces
+[0.355s] [ 69%] Built target more_interfaces__py
+[0.381s] [ 75%] Built target more_interfaces__python
+[0.406s] [ 81%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[0.435s] [ 87%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.460s] [ 93%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.472s] [35m[1mScanning dependencies of target amr_node[0m
+[0.502s] [ 96%] [32mBuilding CXX object CMakeFiles/amr_node.dir/src/amr_node.cpp.o[0m
+[3.020s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:56:68:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >::SharedPtr RobotNode::subscription_[m[K’
+[3.020s]    56 | scription<geometry_msgs::msg::PoseStamped>::SharedPtr [01;31m[Ksubscription_[m[K;
+[3.020s]       |                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+[3.020s] 
+[3.021s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:55:58:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr RobotNode::subscription_[m[K’
+[3.021s]    55 | clcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;36m[Ksubscription_[m[K;
+[3.021s]       |                                                       [01;36m[K^~~~~~~~~~~~~[m[K
+[3.021s] 
+[3.055s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:[m[K In constructor ‘[01m[KRobotNode::RobotNode()[m[K’:
+[3.056s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_current_position[m[K’ was not declared in this scope
+[3.056s]    25 |     [01;31m[Ksubscription_current_position[m[K = this->create_subscription<geometry_msgs::msg::PoseStamped>(
+[3.056s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.682s] make[2]: *** [CMakeFiles/amr_node.dir/build.make:63: CMakeFiles/amr_node.dir/src/amr_node.cpp.o] Error 1
+[5.686s] make[1]: *** [CMakeFiles/Makefile2:529: CMakeFiles/amr_node.dir/all] Error 2
+[5.686s] make: *** [Makefile:141: all] Error 2
+[5.687s] Invoked command in '/home/nils/knapp_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nils/install/python_parameters:/home/nils/install/py_srvcli:/home/nils/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/nils/knapp_ws/build/more_interfaces -- -j1 -l1

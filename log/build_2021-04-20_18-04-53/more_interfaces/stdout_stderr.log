@@ -1,0 +1,31 @@
+[  3%] Built target more_interfaces__cpp
+[ 12%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[ 21%] Built target more_interfaces__rosidl_typesupport_cpp
+[ 30%] Built target more_interfaces__rosidl_generator_c
+[ 39%] Built target more_interfaces__rosidl_typesupport_c
+[ 48%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[ 66%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[ 66%] Built target more_interfaces
+[ 69%] Built target more_interfaces__py
+[ 75%] Built target more_interfaces__python
+[ 81%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[ 87%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[ 93%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[35m[1mScanning dependencies of target amr_node[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/amr_node.dir/src/amr_node.cpp.o[0m
+[01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:56:68:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Krclcpp::Subscription<geometry_msgs::msg::PoseStamped_<std::allocator<void> > >::SharedPtr RobotNode::subscription_[m[K’
+   56 | scription<geometry_msgs::msg::PoseStamped>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                       [01;31m[K^~~~~~~~~~~~~[m[K
+
+[01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:55:58:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Krclcpp::Subscription<std_msgs::msg::String_<std::allocator<void> > >::SharedPtr RobotNode::subscription_[m[K’
+   55 | clcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;36m[Ksubscription_[m[K;
+      |                                                       [01;36m[K^~~~~~~~~~~~~[m[K
+
+[01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:[m[K In constructor ‘[01m[KRobotNode::RobotNode()[m[K’:
+[01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:25:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_current_position[m[K’ was not declared in this scope
+   25 |     [01;31m[Ksubscription_current_position[m[K = this->create_subscription<geometry_msgs::msg::PoseStamped>(
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/amr_node.dir/build.make:63: CMakeFiles/amr_node.dir/src/amr_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:529: CMakeFiles/amr_node.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

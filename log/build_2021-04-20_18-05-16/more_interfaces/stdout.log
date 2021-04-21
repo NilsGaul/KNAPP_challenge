@@ -1,0 +1,17 @@
+[  3%] Built target more_interfaces__cpp
+[ 12%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[ 21%] Built target more_interfaces__rosidl_typesupport_cpp
+[ 30%] Built target more_interfaces__rosidl_generator_c
+[ 39%] Built target more_interfaces__rosidl_typesupport_c
+[ 48%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[ 66%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[ 66%] Built target more_interfaces
+[ 69%] Built target more_interfaces__py
+[ 75%] Built target more_interfaces__python
+[ 81%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[ 87%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[ 93%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[35m[1mScanning dependencies of target amr_node[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/amr_node.dir/src/amr_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable amr_node[0m

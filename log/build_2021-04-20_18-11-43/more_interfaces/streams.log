@@ -1,0 +1,25 @@
+[0.018s] Invoking command in '/home/nils/knapp_ws/build/more_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nils/install/python_parameters:/home/nils/install/py_srvcli:/home/nils/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/nils/knapp_ws/build/more_interfaces -- -j1 -l1
+[0.096s] [  3%] Built target more_interfaces__cpp
+[0.145s] [ 12%] Built target more_interfaces__rosidl_typesupport_introspection_cpp
+[0.175s] [ 21%] Built target more_interfaces__rosidl_typesupport_cpp
+[0.200s] [ 30%] Built target more_interfaces__rosidl_generator_c
+[0.225s] [ 39%] Built target more_interfaces__rosidl_typesupport_c
+[0.256s] [ 48%] Built target more_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.283s] [ 57%] Built target more_interfaces__rosidl_typesupport_fastrtps_c
+[0.308s] [ 66%] Built target more_interfaces__rosidl_typesupport_introspection_c
+[0.333s] [ 66%] Built target more_interfaces
+[0.354s] [ 69%] Built target more_interfaces__py
+[0.380s] [ 75%] Built target more_interfaces__python
+[0.405s] [ 81%] Built target more_interfaces__rosidl_typesupport_c__pyext
+[0.436s] [ 87%] Built target more_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.472s] [ 93%] Built target more_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.493s] [35m[1mScanning dependencies of target amr_node[0m
+[0.534s] [ 96%] [32mBuilding CXX object CMakeFiles/amr_node.dir/src/amr_node.cpp.o[0m
+[0.665s] [01m[K/home/nils/knapp_ws/src/more_interfaces/src/amr_node.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/post_stamped.hpp: No such file or directory
+[0.666s]     7 | #include [01;31m[K"geometry_msgs/msg/post_stamped.hpp"[m[K
+[0.666s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.666s] compilation terminated.
+[0.669s] make[2]: *** [CMakeFiles/amr_node.dir/build.make:63: CMakeFiles/amr_node.dir/src/amr_node.cpp.o] Error 1
+[0.672s] make[1]: *** [CMakeFiles/Makefile2:529: CMakeFiles/amr_node.dir/all] Error 2
+[0.672s] make: *** [Makefile:141: all] Error 2
+[0.675s] Invoked command in '/home/nils/knapp_ws/build/more_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/nils/install/python_parameters:/home/nils/install/py_srvcli:/home/nils/install/py_pubsub:/opt/ros/foxy /usr/bin/cmake --build /home/nils/knapp_ws/build/more_interfaces -- -j1 -l1

@@ -80,6 +80,10 @@ amr_node_EXTERNAL_OBJECTS =
 amr_node: CMakeFiles/amr_node.dir/src/amr_node.cpp.o
 amr_node: CMakeFiles/amr_node.dir/build.make
 amr_node: /opt/ros/foxy/lib/librclcpp.so
+amr_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+amr_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_c.so
+amr_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+amr_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 amr_node: libmore_interfaces__rosidl_typesupport_cpp.so
 amr_node: /opt/ros/foxy/lib/liblibstatistics_collector.so
 amr_node: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_c.so
@@ -87,11 +91,6 @@ amr_node: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_generat
 amr_node: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_c.so
 amr_node: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_introspection_cpp.so
 amr_node: /opt/ros/foxy/lib/liblibstatistics_collector_test_msgs__rosidl_typesupport_cpp.so
-amr_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-amr_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
-amr_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
-amr_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-amr_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so
 amr_node: /opt/ros/foxy/lib/librcl.so
 amr_node: /opt/ros/foxy/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
 amr_node: /opt/ros/foxy/lib/librcl_interfaces__rosidl_generator_c.so
@@ -114,6 +113,13 @@ amr_node: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_generator_c.so
 amr_node: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_c.so
 amr_node: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
 amr_node: /opt/ros/foxy/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+amr_node: /opt/ros/foxy/lib/libtracetools.so
+amr_node: /opt/ros/foxy/lib/libgeometry_msgs__rosidl_generator_c.so
+amr_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+amr_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_generator_c.so
+amr_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_c.so
+amr_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+amr_node: /opt/ros/foxy/lib/libstd_msgs__rosidl_typesupport_cpp.so
 amr_node: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 amr_node: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 amr_node: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
@@ -121,7 +127,6 @@ amr_node: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_introspect
 amr_node: /opt/ros/foxy/lib/librosidl_typesupport_introspection_cpp.so
 amr_node: /opt/ros/foxy/lib/librosidl_typesupport_introspection_c.so
 amr_node: /opt/ros/foxy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-amr_node: /opt/ros/foxy/lib/libtracetools.so
 amr_node: /opt/ros/foxy/lib/librosidl_typesupport_cpp.so
 amr_node: /opt/ros/foxy/lib/librosidl_typesupport_c.so
 amr_node: /opt/ros/foxy/lib/librcpputils.so
