@@ -20,13 +20,23 @@ find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(yaml-cpp REQUIRED)
+
+include_directories(HEADERS_EXECUTABLE
+    ${YAML_INCLUDE_DIRS}
+    #${YAML_CPP_INCLUDEDIR}
+)
+
+#target_link_libraries(${CMAKE_PROJECT_NAME}
+#    yaml-cpp
+#)
 
 add_executable(amr_node
   src/amr_node.cpp
 )
 
 ament_target_dependencies(amr_node
-  rclcpp geometry_msgs
+  rclcpp geometry_msgs yaml-cpp
 )
 
 install(TARGETS 
