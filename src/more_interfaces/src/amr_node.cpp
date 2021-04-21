@@ -22,14 +22,25 @@ public:
     subscription_ = this->create_subscription<std_msgs::msg::String>(
       "topic", 10, std::bind(&RobotNode::topic_callback, this, _1));
 
+    //Task 2
     subscription_current_position = this->create_subscription<geometry_msgs::msg::PoseStamped>(
       "currentPosition", 10, std::bind(&RobotNode::currentPosition_callback, this, _1));
 
     subscription_next_order = this->create_subscription<more_interfaces::msg::Order>(
       "nextOrder", 10, std::bind(&RobotNode::nextOrder_callback, this, _1));
 
+    //Task 3
+    this->declare_parameter<std::string>("path_parameter", "/home/nils/knapp_ws/src/files");
+      timer_path_param = this->create_wall_timer(
+      1000ms, std::bind(&RobotNode::respond, this));
 
   }
+
+   void respond()
+    {
+      this->get_parameter("path_parameter", path_param);
+      RCLCPP_INFO(this->get_logger(), "Current path:  %s", path_param.c_str());
+    }
 
 private:
   void timer_callback()
@@ -42,6 +53,9 @@ private:
   rclcpp::TimerBase::SharedPtr timer_;
   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
   size_t count_;
+
+  std::string path_param;
+  rclcpp::TimerBase::SharedPtr timer_path_param;
 
 
   void topic_callback(const std_msgs::msg::String::SharedPtr msg) const
